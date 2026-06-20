@@ -104,7 +104,9 @@ print_characters("Python")
 # Wrong Example:
 
 # def hello():
+#     print("Hello")
 #     hello()
 
+# hello()
 # This creates infinite recursion and
 # causes a RecursionError.
